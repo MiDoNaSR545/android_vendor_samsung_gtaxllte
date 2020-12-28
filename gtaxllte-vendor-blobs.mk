@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
 # drm
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
-
+    vendor/samsung/gtaxllte/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so 
 # aptx
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
