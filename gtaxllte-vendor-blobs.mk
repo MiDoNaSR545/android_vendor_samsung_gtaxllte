@@ -92,8 +92,8 @@ PRODUCT_COPY_FILES += \
 
 # aptx
 PRODUCT_COPY_FILES += \
-    vendor/samsung/gtaxllte/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
-    vendor/samsung/gtaxllte/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so
+    vendor/samsung/gtaxllte/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
+    vendor/samsung/gtaxllte/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so
 
 # gps add
 PRODUCT_COPY_FILES += \
