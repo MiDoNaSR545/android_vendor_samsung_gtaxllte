@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
     vendor/samsung/gtaxllte/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
+    vendor/samsung/gtaxllte/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
 
 # omx stuff
 PRODUCT_COPY_FILES += \
